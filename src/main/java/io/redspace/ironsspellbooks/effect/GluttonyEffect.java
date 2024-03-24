@@ -36,6 +36,9 @@ public class GluttonyEffect extends MagicMobEffect {
     }
 
     public static float ratioForAmplifier(int amplifier) {
-        return (4 + amplifier) * .5f;
+        return (4 + amplifier) * 1f;
     }
+    // Amplifier is considerably weak when used as a command. It is recommended to increase the amplification
+    // ratio in order to achieve higher mana recovery rates at higher effect amplification levels.
+    // Altered to (4 + amplifier) * 1f from (4 + amplifier) * 0.5f
 }
