@@ -95,6 +95,8 @@ public class SpellRegistry {
     public static final RegistryObject<AbstractSpell> COUNTERSPELL_SPELL = registerSpell(new CounterspellSpell());
     public static final RegistryObject<AbstractSpell> DRAGON_BREATH_SPELL = registerSpell(new DragonBreathSpell());
     public static final RegistryObject<AbstractSpell> EVASION_SPELL = registerSpell(new EvasionSpell());
+
+    public static final RegistryObject<AbstractSpell> FORCE_MISSILES_SPELL = registerSpell(new ForceMissilesSpell());
     public static final RegistryObject<AbstractSpell> MAGIC_ARROW_SPELL = registerSpell(new MagicArrowSpell());
     public static final RegistryObject<AbstractSpell> MAGIC_MISSILE_SPELL = registerSpell(new MagicMissileSpell());
     public static final RegistryObject<AbstractSpell> STARFALL_SPELL = registerSpell(new StarfallSpell());
